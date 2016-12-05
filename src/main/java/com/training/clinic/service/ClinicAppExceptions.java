@@ -1,4 +1,4 @@
 package com.training.clinic.service;
 
-public class ClinicAppExceptions {
+public class ClinicAppExceptions extends RuntimeException {
 }

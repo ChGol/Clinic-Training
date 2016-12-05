@@ -1,2 +1,2 @@
 # Clinic-Training
-#Training Projectin Spring Framework
+# Training Project in Spring Framework
