@@ -66,11 +66,11 @@ public class Account implements Serializable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
 
-        Account account = (Account) o;
+        Account account = (Account) obj;
 
         if (balance != account.balance) return false;
         return number != null ? number.equals(account.number) : account.number == null;
@@ -85,5 +85,13 @@ public class Account implements Serializable {
                 ", number='" + number + '\'' +
                 ", customers=" + customers +
                 '}';
+    }
+
+    public void deposit(long funds) {
+        balance += funds;
+    }
+
+    public void withdraw(long funds) {
+        balance += funds;
     }
 }
