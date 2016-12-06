@@ -1,4 +1,4 @@
-package com.training.clinic.service;
+package com.training.clinic;
 
 public class App {
 
