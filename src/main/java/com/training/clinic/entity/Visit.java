@@ -33,10 +33,7 @@ public class Visit {
 
     @Override
     public String toString() {
-        return "Visit{" + '\n' +
-                "id=" + id +
-                ", localDateTime=" + localDateTime +
-                '}' + '\n';
+        return "\n " + " Visit Time: " + localDateTime + " ";
     }
 
     @Override
