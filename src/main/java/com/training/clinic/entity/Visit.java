@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 public class Visit {
 
     private long id;
+
     private LocalDateTime localDateTime;
 
     public Visit(long id, LocalDateTime localDateTime) {
